@@ -1,0 +1,101 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #0056b3, #007bff, #24243e);
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+}
+
+.container:hover {
+    box-shadow: 0 6px 30px rgba(0, 0, 0, 0.2); /* Efeito de hover */
+}
+
+h1 {
+    text-align: center;
+    color: #007BFF; /* Azul para o título */
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.profile-pic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.profile-pic img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #007BFF; /* Borda azul ao redor da foto */
+    margin-bottom: 10px;
+    transition: transform 0.2s;
+}
+
+.profile-pic img:hover {
+    transform: scale(1.05); /* Efeito de zoom na imagem */
+}
+
+.form-group {
+    margin: 15px 0;
+}
+
+.form-group label {
+    color: #007BFF; /* Azul para os rótulos */
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: border-color 0.3s;
+}
+
+.form-group input:focus {
+    border-color: #007BFF; /* Borda azul ao focar */
+    outline: none; /* Remove a borda padrão */
+}
+
+.activities {
+    margin-top: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.buttons button {
+    background-color: #007BFF; /* Botões em azul */
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.buttons button:hover {
+    background-color: #0056b3; /* Azul escuro ao passar o mouse */
+    transform: translateY(-2px); /* Efeito de elevação */
+}
+
+.buttons button:active {
+    transform: translateY(0); /* Retorna ao normal quando pressionado */
+}

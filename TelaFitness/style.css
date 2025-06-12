@@ -1,0 +1,110 @@
+/* Estilo geral do corpo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: #333;
+}
+
+/* Cabeçalho principal */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    color: #4B91F7;
+    font-size: 2rem;
+}
+
+/* Tabela de treinos */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo dos cabeçalhos da tabela */
+thead tr {
+    background-color: #007bff;
+    color: white;
+    text-align: left;
+}
+
+/* Linhas da tabela */
+tbody tr {
+    border-bottom: 1px solid #ddd;
+}
+
+/* Linhas alternadas */
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Células da tabela */
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+/* Links de ações */
+a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+/* Botão de ação */
+.action-buttons a {
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+a.editar {
+    background-color: #28a745;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+
+a.editar:hover {
+    background-color: #218838;
+}
+
+a.excluir {
+    background-color: #dc3545;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+a.excluir:hover {
+    background-color: #c82333;
+}
+
+/* Mensagem de vazio */
+.empty-message {
+    text-align: center;
+    color: #666;
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+.voltar{
+    padding: 10px 20px;
+    background-color:#009bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    position: relative;
+    top: 60px;
+    left: 130px;
+    
+}

@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #0056b3, #007bff, #24243e);
+  margin: 0;
+  padding: 20px;
+}
+
+.voltar{
+  background-color: #007bff;
+  text-decoration: none;
+  height: 30px;
+  border-radius: 50%;
+  height: 40px;
+}
+
+.voltar:hover{
+  color: white;
+  background-color: #003f83;
+  border: 3px solid rgb(0, 0, 0);
+}
+
+.profile-container {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+}
+
+.profile-header {
+  text-align: center;
+}
+
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+
+}
+
+.profile-info, .health-data, .recent-activities, .tips {
+  margin-top: 20px;
+}
+
+h2 {
+  color: #0041cc;
+}
+
+.actions {
+  margin-top: 20px;
+  text-align: center;
+  background-color: #0041cc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color:#003099;
+}
